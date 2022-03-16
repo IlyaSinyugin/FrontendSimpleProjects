@@ -23,12 +23,6 @@ btn3.addEventListener('click', function () {
     document.body.style.backgroundColor = '#ffffff';
 });
 
-// btn4.addEventListener('click', function () {
-//     let hexColor = '#'
-//     for (let i = 0; i < 6; i++) {
-//         hexColor += hex[getRandomNumber()];
-//     }
-// });
 
 function getRandomNumber() {
     return Math.floor(Math.random() * hex.length);
